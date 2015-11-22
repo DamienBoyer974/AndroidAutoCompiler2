@@ -3,7 +3,7 @@
 import os
 from tkinter import *
 
-version = "1.0_151115"
+version = "1.0_221115"
 
 #ManagingTKinter
 aac = Tk()
@@ -91,7 +91,6 @@ def build():
 	text_entry.pack()
 	build_btn.pack()
 	frame_3.mainloop()
-	frame_1.destroy()
 	
 #Menu
 menubar = Menu(frame_1)
