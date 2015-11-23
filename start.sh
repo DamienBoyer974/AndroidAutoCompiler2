@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo Start AAC...
+echo Start AAC2...
 sudo apt-get install python3-tk
 sudo python3 script/aac_gui.py
 echo All is initialised, now click on Download Source.
