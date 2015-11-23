@@ -3,13 +3,13 @@
 import os
 from tkinter import *
 
-version = "1.0_231115"
+version = "1.1_231115"
 
 #ManagingTKinter
 aac = Tk()
 frame_1 = aac
-aac.geometry("400x440")
-aac.maxsize(maxwidth="400",maxheight="440")
+aac.minsize(width=400, height=440)
+aac.maxsize(width=400, height=440) # Revert to minsize & maxsize due to problems to execute with aac.geometry
 
 #InitialisationFrame
 def init():
@@ -99,7 +99,7 @@ def build():
 menubar = Menu(frame_1)
 menubar.add_command(label="Initialisation", command=init)
 menubar.add_command(label="Download Source", command=dl)
-menubar.add_command(label="Build for my device", command=build)
+menubar.add_command(label="Build Options", command=build)
 menubar.add_command(label="Quit", command=frame_1.quit)
 
 #Display that menu
