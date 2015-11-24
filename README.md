@@ -5,7 +5,7 @@
     - AAC is a system for building android and android-compatible ROMS that requires no knowledge of the linux shell.
 
     What devices can I use it for?
-    AAC should work with anything that is supported by Cyanogenmod.
+    - AAC should work with anything that is supported by Cyanogenmod.
 
     Which OSes do you want to support?
         - Android (and its variants)
