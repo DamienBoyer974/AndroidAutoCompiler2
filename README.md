@@ -22,5 +22,5 @@
  - Full python3 GUI
  - Support for building from Windows and OSX via Vagrant VirtualBox Virtual Machines.
  - Automatic updates of the build scripts for device variants
- - A library of build scripts for devices, including those not yet supported by Cyangogenmod
+ - A library of build scripts for devices, including those not yet supported by Cyanogenmod
  - collaboration with the groups releasing software directly, to ensure that we build their code in the manner recommended by the group itself.
